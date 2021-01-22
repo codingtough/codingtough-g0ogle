@@ -1,0 +1,65 @@
+.search__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  height: 2.6rem;
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  width: 75vw;
+  margin: 0 auto;
+  margin-top: 6.5rem;
+  max-width: 56rem;
+}
+
+.search__input > input {
+  flex: 1;
+  padding: 1rem 2rem;
+  font-size: medium;
+  border: none;
+}
+
+.search__input > input:focus {
+  outline-width: 0;
+}
+
+.search__input > .MuiSvgIcon-root:last-child {
+  font-size: 2.5rem;
+  color: rgb(131, 131, 224);
+}
+
+.search__inputIcon {
+  font-size: 2rem !important;
+  color: #9aa0a6;
+}
+
+.search__buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.search__buttons button {
+  margin: 5px;
+  padding: 7px 1.5rem;
+  font-size: 1.4rem;
+  text-transform: inherit;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  color: #3c4043;
+}
+
+.search__input:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.search__buttons button:hover {
+  background-image: -webkit-linear-gradient(top, #f8f9fa, #f8f9fa);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border-color: #dadce0;
+  color: #202124;
+}
+
+.search__buttonsHidden {
+  display: none !important;
+}
